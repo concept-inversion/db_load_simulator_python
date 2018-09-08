@@ -1,0 +1,8 @@
+Run:
+
+locust -f /home/inversion/Documents/My\ projects/Database\ load\ testing/database_request_simulator/PostgresLocust/postgres_locust_example.py --csv=local_results
+
+Note:
+ 1. Start Postgres first
+ 2. Change the database authenticaion (username, password). Currently it is hardcoded.
+ 3. Read readme from orginal repo
